@@ -1,1 +1,21 @@
-Copy your URL to screenshot here
+scheme image url : https://imgur.com/3YNNANM
+
+we have two database entity contacts and groups,
+
+contacts has following 
+- contact_id (contact id is unique so we set it as Primary Key)
+- name 
+- company
+- phone_number
+- gender
+- email
+
+groups has following
+- group_id (is unique so we set it as primary key)
+- grop_name
+
+a contact can join to many groups, and a group can has many contacts
+so this relation called Many to Many
+
+to be able handle many to many relationship, we need a junction database
+named as "contacts_groups" 
