@@ -1,1 +1,19 @@
 Copy your URL to screenshot here
+link : https://imgur.com/gallery/p5M6i6A
+
+This schema has relation many to many.
+
+First I make table for contact, it has :
+-Id (I set this to primary key because it's unique elemen)
+-name
+-company name
+-phone number
+-email
+
+And then I make table for group and it has :
+-group Id (I set this to primary key because it's unique elemen)
+-group name
+
+Last for handle this relation I make table Contact groups that has:
+-Contact id from table contact
+-Group id from table group
